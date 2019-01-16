@@ -10,7 +10,6 @@ This is version 1.1.9
 
 * **Thermal Runaway Protection**
 * **Individual Axis Homing**
-* **Level Bed Corners Assist (thumb screws assist)**
 * **Bilinear Bed Leveling (Manual)**
 Note: it is configured to maintain the bed leveling between prints, but will go away when you power off the machine, you'll need to "Save" and "Load" the configuration. You should add a line containing `G29` in your starting GCode after your `G28` (home), [you can use my start/end GCODE](https://github.com/RuiCarneiro/MarlinForEnder3STOCK/blob/master/Cura%20and%20Slic3r%20GCODEs.md).
 * **Babystep Z**
