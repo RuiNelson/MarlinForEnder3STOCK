@@ -8,31 +8,23 @@ This is version 1.1.9
 
 ## It Features Compared to the Original Firmware
 
-### Thermal Runaway Protection
-
-### Individual Axis Homing
-
-### Level Bed Corners Assist (thumb screws assist)
-
-### Bilinear Bed Leveling (Manual)
+* Thermal Runaway Protection
+* Individual Axis Homing
+* Level Bed Corners Assist (thumb screws assist)
+* Bilinear Bed Leveling (Manual)
 Note: it is configured to maintain the bed leveling between prints, but will go away when you power off the machine, you'll need to "Save" and "Load" the configuration. You should add a line containing `G29` in your starting GCode after your `G28` (home), you can have my starting and ending GCodes, open the .gcode and copy/paste them to Cura/Slic3r.
-
-### Babystep Z
-
-### S-Curve Acceleration
-
-### PID Autotune menu for the hotend and save to memory
-
-### Pre-heat PLA and ABS temperatures Configuration
-
-### Fan kick-off
+* Babystep Z
+* S-Curve Acceleration
+* PID Autotune menu for the hotend and save to memory
+* Pre-heat PLA and ABS temperatures Configuration
+* Fan kick-off
 In the stock firmware, if you select a low fan speed (e.g. 20%), the fan probably won't spin at all, because the current isn't enough for the fan to overcome the initial intertia, I've set the fan to spin at full power during 0.8 seconds to allow for lower fan speeds.
 
 I wish I could add more, but there's no space left in the microcontroller.
 
 ## Sacrifices that have been made compared to the Original Firmware
 
-This firmware takes 129,634 bytes of the availiable 130,048 bytes of program memory the 1284 after installing the Arduino bootloader, so some sacrifices had to be made:
+This firmware takes 129,634 bytes of the availiable 130,048 bytes of program memory the microcontroller has after installing the Arduino bootloader, so some sacrifices had to be made:
 
 * No power on image (dragon), or that "Ender 3" logo you see are gone
 * The Buzzer can only do beeps at a single frequency
