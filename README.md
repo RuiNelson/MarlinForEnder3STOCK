@@ -17,7 +17,7 @@ Note: it is configured to maintain the bed leveling between prints, but will go 
 * **PID Autotune menu for the hotend and save to memory**
 * **Pre-heat PLA and ABS temperatures Configuration**
 * **Fan kick-off**
-In the stock firmware, if you select a low fan speed (e.g. 20%), the fan probably won't spin at all, because the current isn't enough for the fan to overcome the initial intertia, I've set the fan to spin at full power during 0.8 seconds to allow for lower fan speeds.
+In the stock firmware, if you select a low fan speed (e.g. 20%), the fan probably won't spin at all, because the current isn't enough for the fan to overcome the initial intertia, I've set the fan to spin at full power during 0.8 seconds to allow for lower fan speeds. *Still, I don't recomend fan speeds under 35% and it bare minimum the stock fan can spin is 25%.*
 
 I wish I could add more, but there's no space left in the microcontroller.
 
