@@ -38,7 +38,7 @@ This firmware takes 129,634 bytes of the availiable 130,048 bytes of program mem
 
 Edit Configuration.h (example in the Arduino IDE) and change the values of `LCD_FEEDBACK_FREQUENCY_DURATION_MS` and `LCD_FEEDBACK_FREQUENCY_HZ` to zero (`0`)
 
-# Tips & Tricks
+## Tips & Tricks
 
 * When uploading the firmware, make sure the printer is powered from the wall plug, while the PC can power on the board and will actually upload, the max current is too low and can cause a bad flash
 
@@ -50,7 +50,7 @@ Edit Configuration.h (example in the Arduino IDE) and change the values of `LCD_
 
 * After writing, by default the Arduino IDE verifies the upload, if it fails on the long "Reading" phase after "Writing", it doesn't mean it failed to write.
 
-# Warranty
+## Warranty
 
 There's none from me. This is AS IS, if you screw up, it's your fault.
 
