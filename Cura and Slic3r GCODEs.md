@@ -13,7 +13,7 @@
     G92 E20                                             ; Reset Extruder
     G1 E20 F1200                                        ; Purge 20mm
     G92 E0                                              ; Reset Extruder Again
-    G1 X0 Y0 Z0 F1000.0                                 ; Start Position For Lines
+    G1 X0 Y0 Z0.2 F1000.0                                 ; Start Position For Lines
     G1 Y60.0 E9.0 F1000.0                               ; First Intro line
     G1 Y100.0 E21.5 F1000.0                             ; Second Intro line
     G92 E0                                              ; Final Reset Extruder
@@ -48,7 +48,7 @@
     G92 E0                                              ; Reset Extruder
     G1 E20 F1200                                        ; Purge 20mm
     G92 E0                                              ; Reset Extruder Again
-    G1 X0 Y0 Z0 F1000.0                                 ; Start Position For Lines
+    G1 X0 Y0 Z0.2 F1000.0                                 ; Start Position For Lines
     G1 Y60.0 E9.0 F1000.0                               ; First Intro line
     G1 Y100.0 E21.5 F1000.0                             ; Second Intro line
     G92 E0                                              ; Final Reset Extruder
