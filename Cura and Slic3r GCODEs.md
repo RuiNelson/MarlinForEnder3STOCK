@@ -4,7 +4,6 @@
 
     ; BEGIN STARTING -----------
     G28                                                 ; Home
-    G29                                                 ; AutoLevel
     G90      											; Absolute positioning
     G1 X0.0 Y000.0 Z2.0 F03000                          ; Move up a bit
     M140 S{material_bed_temperature_layer_0}			; Start heating the Bed
@@ -40,7 +39,6 @@
 
     ; BEGIN STARTING -----------
     G28                                                 ; Home
-    G29                                                 ; AutoLevel
     G90      											; Absolute positioning
     G1 X0.0 Y000.0 Z2.0 F03000                          ; Move up a bit
     M140 S[first_layer_bed_temperature]		        	; Start heating the Bed
