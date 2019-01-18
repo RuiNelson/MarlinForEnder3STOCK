@@ -44,7 +44,7 @@ Edit Configuration.h (example in the Arduino IDE) and change the values of `LCD_
 
 ## Tips & Tricks
 
-* When uploading the firmware, make sure the printer is powered from the wall plug, while the PC can power on the board and will actually upload, the max current is too low and can cause a bad flash
+* When uploading the firmware, make sure the printer is powered from the wall plug, while the PC can power the board and will actually upload, the max current is too low and can cause a bad flash
 
 * If the upload fails, upload a simple and small Arduino sketch like "Blink" (File | Examples | Basic | Blink) first, and then upload Marlin, because Marlin uses the serial port too.
 
